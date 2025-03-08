@@ -1,0 +1,214 @@
+﻿@* 
+@model BLL.Model.CartAndCustomerAndShipper
+@inject IHttpContextAccessor httpcontext
+@using BLL.IService
+
+@{
+    ViewData["Title"] = "Xem Chi Tiết Đơn Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var StoreID = httpcontext.HttpContext.Session.GetInt32("storeID");
+    var service = httpcontext.HttpContext.RequestServices.GetService<IFoodService>();
+    var cartService = httpcontext.HttpContext.RequestServices.GetService<ICartService>();
+    int CartID = ViewBag.CodeCart;
+    var cart = await cartService.GetCartByID(CartID);
+}
+<div class="main-content" style="margin-top: 70px;">
+    <div class="container py-5 bg-white">
+        <div class="title" style="text-align: center;">
+            <h1 class="m-0">Chi Tiết Đơn Hàng @ViewBag.CodeCart</h1>
+        </div>
+        <div class="mt-5">
+            <button class="btn btn-shoppefood text-white me-2" onclick="history.back()"><i class="far fa-arrow-alt-circle-left icon-style"></i></button>
+        </div>
+        <section class="h-100 gradient-custom">
+            <div class="container pt-5">
+                <div class="row d-flex justify-content-center my-4">
+                    <div class="col-md-8">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h5 class="mb-0">Chi Tiết Đơn Hàng</h5>
+                            </div>
+                            <div class="card-header" style="height: 40px;">
+                                <table class="min-w-full mt-4 divide-y divide-gray-200">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tên món ăn</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Số lượng</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Giá</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tổng</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white divide-y divide-gray-200">
+                                        @foreach (var item in Model.cartDtos.DetailCarts)
+                                        {
+                                            <tr>
+                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.FoodName</td>
+                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.Quantity</td>
+                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.Price.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.TotalMoney.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h5 class="mb-0">Thông Tin Đơn Hàng</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list-unstyled">
+                                    <li>
+                                        <label class="mt-4 mb-1">Mã Đơn : @ViewBag.CodeCart</label>
+                                    </li>
+                                    <li>
+                                        <label class="mt-4 mb-1">Tài Xế : @Model.shipperDtos.LastName  @Model.shipperDtos.FirstName</label>
+                                    </li>
+                                    <li>
+                                        <label class="mt-4 mb-1">Số điện thoại :@Model.shipperDtos.PhoneNumber</label>
+                                    </li>
+                                    <li>
+                                        <label class="mt-4 mb-1">Tên Người Đặt :@Model.customerDtos.LastName  @Model.customerDtos.FirstName</label>
+                                    </li>
+                                  
+                                    <li>
+                                        <label class="mt-4 mb-1">Số Điện Thoại : (84+) @Model.cartDtos.PhoneNumber</label>
+                                    </li>
+                                    <li>
+                                        <label class="mt-4 mb-1">Địa Chỉ :@Model.cartDtos.Delivery</label>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-3">
+                                        <b>Tổng Tiền</b>
+                                                <p class="text-lg font-semibold text-gray-900">@Model.cartDtos.DetailCarts.Sum(x => x.TotalMoney).ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>  *@
+@model BLL.Model.CartAndCustomerAndShipper
+@inject IHttpContextAccessor HttpContextAccessor
+@using BLL.IService
+
+@{
+    ViewData["Title"] = "Xem Chi Tiết Đơn Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var storeID = HttpContextAccessor.HttpContext.Session.GetInt32("storeID");
+    var cartID = ViewBag.CodeCart;
+}
+
+<div class="main-content" style="margin-top: 70px;">
+    <div class="container py-5 bg-white">
+        <!-- Title Section -->
+        <div class="text-center mb-5">
+            <h1>Chi Tiết Đơn Hàng @cartID</h1>
+        </div>
+
+        <!-- Back Button -->
+        <div class="mb-4">
+            <button class="btn btn-shoppefood text-white me-2" onclick="history.back()">
+                <i class="far fa-arrow-alt-circle-left icon-style"></i> Quay Lại
+            </button>
+        </div>
+
+        <!-- Order Details Section -->
+        <section class="h-100 gradient-custom">
+            <div class="container pt-5">
+                <div class="row d-flex justify-content-center my-4">
+                    <!-- Order Items Table -->
+                    <div class="col-md-8">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h5 class="mb-0">Chi Tiết Đơn Hàng</h5>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered mt-4">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Tên món ăn</th>
+                                            <th>Số lượng</th>
+                                            <th>Giá</th>
+                                            <th>Tổng</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.cartDtos.DetailCarts)
+                                        {
+                                            <tr>
+                                                <td>@item.FoodName</td>
+                                                <td>@item.Quantity</td>
+                                                <td>@item.Price.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                                                <td>@item.TotalMoney.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Order Summary -->
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h5 class="mb-0">Thông Tin Đơn Hàng</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <b>Mã Đơn:</b> @cartID
+                                    </li>
+                                    <li class="list-group-item">
+                                        <b>Tài Xế:</b>
+                                        @if (Model.shipperDtos != null)
+                                        {
+                                            @Model.shipperDtos.LastName @Model.shipperDtos.FirstName
+                                        }
+                                        else
+                                        {
+                                            <span>Chưa có tài xế</span>
+                                        }
+                                    </li>
+                                    <li class="list-group-item">
+                                        <b>Số điện thoại tài xế:</b>
+                                        @if (Model.shipperDtos != null && Model.shipperDtos.PhoneNumber != null)
+                                        {
+                                            @Model.shipperDtos.PhoneNumber
+                                        }
+                                        else
+                                        {
+                                            <span>Chưa có số điện thoại</span>
+                                        }
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <b>Người đặt:</b> @Model.customerDtos.LastName @Model.customerDtos.FirstName
+                                    </li>
+                                    <li class="list-group-item">
+                                        <b>Số điện thoại:</b> (84+) @Model.cartDtos.PhoneNumber
+                                    </li>
+                                    <li class="list-group-item">
+                                        <b>Địa chỉ giao hàng:</b> @Model.cartDtos.Delivery
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <b>Tổng Tiền:</b>
+                                        <span class="text-lg font-semibold">
+                                            @Model.cartDtos.DetailCarts.Sum(x => x.TotalMoney).ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

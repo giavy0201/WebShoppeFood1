@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Vy\OneDrive\Deloy\WebApi</_PublishTargetUrl>
+    <History>True|2024-05-09T13:41:41.6897805Z;True|2024-05-08T22:22:47.6529820+07:00;True|2024-05-08T22:21:48.1804061+07:00;True|2024-05-08T22:21:44.8539743+07:00;True|2024-05-08T22:19:39.4162952+07:00;True|2024-05-08T22:19:35.1450879+07:00;True|2024-05-08T22:16:02.0711963+07:00;True|2024-05-08T22:15:12.9907363+07:00;True|2024-05-08T22:14:25.2349649+07:00;True|2024-05-08T22:13:09.5679093+07:00;True|2024-05-08T22:11:52.5271034+07:00;True|2024-05-08T22:11:44.0407287+07:00;True|2024-05-08T21:53:52.3465258+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnectDB">
+      <Value>Server=MSI%3bDatabase=ShoppeFood%3buser id=sa%3bpassword=123456%3bIntegrated Security=false%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="Redis">
+      <Value>Server=MSI%3bDatabase=ShoppeFood%3buser id=sa%3bpassword=123456%3bIntegrated Security=false%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

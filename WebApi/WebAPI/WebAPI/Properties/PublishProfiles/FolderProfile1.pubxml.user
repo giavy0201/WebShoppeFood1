@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Publish</_PublishTargetUrl>
+    <History>True|2024-05-09T13:48:36.5510309Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnectDB">
+      <Value>Server=MSI%3bDatabase=ShoppeFood%3buser id=sa%3bpassword=123456%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="Redis">
+      <Value>Server=MSI%3bDatabase=ShoppeFood%3buser id=sa%3bpassword=123456%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ea5fjWwt7qY/UdC+PPgmqu1sFNjgLLHh/clK1CqekM4Atu72ABxfNR1xQU1EQ1Z+tv+s6zcZJcqjONCGrbg2HA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vy\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Vy\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Vy\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Vy\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Vy\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Vy\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Vy\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

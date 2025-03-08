@@ -1,0 +1,2234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\customer\\updatecustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\customer\\updatecustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\cart\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\cart\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\cart\\detailcartbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\cart\\detailcartbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\store\\detailstore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\store\\detailstore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\store\\_listmenustore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\store\\_listmenustore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\store\\_listmenufood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\store\\_listmenufood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\store\\_listfoodofmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\store\\_listfoodofmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\store\\_listcommentsbystore1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\store\\_listcommentsbystore1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\cart\\orderpending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\cart\\orderpending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\cart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\cart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\cart\\orderaccepted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\cart\\orderaccepted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\cart\\noorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\cart\\noorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\cart\\cartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\cart\\cartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\cart\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\cart\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\service\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\service\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\cart\\_listcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\cart\\_listcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\cartresponsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\cartresponsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\cart\\reqordermess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\cart\\reqordermess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\productdtos\\categorydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\productdtos\\categorydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\cart\\reqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\cart\\reqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\productdtos\\collectiondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\productdtos\\collectiondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\customer\\customerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\customer\\customerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\comment\\commentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\comment\\commentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\collectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\detailcartandstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\detailcartandstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\customerandcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\customerandcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelstoredtos\\storedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelstoredtos\\storedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelstoredtos\\liststoreofcollecdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelstoredtos\\liststoreofcollecdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelstoredtos\\listmenudtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelstoredtos\\listmenudtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelstoredtos\\fooddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelstoredtos\\fooddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\updatecommentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\updatecommentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\setstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\setstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\reqstorepreferential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\reqstorepreferential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\reqstoremenubot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\reqstoremenubot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\reqsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\reqsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\reqliststoreofcollec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\reqliststoreofcollec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\reqforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\reqforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\reqcollectionhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\reqcollectionhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\addcommentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\addcommentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\service\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\service\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\helper\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\helper\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\_listcategoryheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_listcategoryheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\iservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\iservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\_listcityheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_listcityheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\home\\_listcollectionhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\home\\_listcollectionhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\customer\\customerdtos1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\customer\\customerdtos1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\modelrequest\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\modelrequest\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\customer\\updatecustomerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\customer\\updatecustomerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\customer\\modelregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\customer\\modelregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\customer\\modellogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\customer\\modellogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\comment\\commentspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\comment\\commentspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\iservice\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\iservice\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\comment\\_listcommentsbyfood1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\comment\\_listcommentsbyfood1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\collection\\_liststoreincollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\collection\\_liststoreincollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\productdtos\\contentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\productdtos\\contentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\helper\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\helper\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\models\\resetpasswordemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\models\\resetpasswordemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\models\\listnull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\models\\listnull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\comment\\commentspage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\comment\\commentspage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\customer\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\customer\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\iservice\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\iservice\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\_dataempty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_dataempty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\comment\\_listcommentsbystore1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\comment\\_listcommentsbystore1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\comment\\_listcommentsbyfood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\comment\\_listcommentsbyfood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\comment\\_listcommentsbystore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\comment\\_listcommentsbystore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\collection\\listcollectionpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\collection\\listcollectionpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\search\\_listcontentsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\search\\_listcontentsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\product\\preferentialpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\product\\preferentialpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\product\\_liststorepreferentialpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\product\\_liststorepreferentialpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\product\\_listdistrictpre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\product\\_listdistrictpre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\home\\_liststoremenubot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\home\\_liststoremenubot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\home\\_listoptionhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\home\\_listoptionhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\home\\_listdistrictmenubot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\home\\_listdistrictmenubot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\collection\\detailcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\collection\\detailcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\customer\\changeforgotpass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\customer\\changeforgotpass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\customer\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\customer\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\customer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\customer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\search\\searchpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\search\\searchpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\iservice\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\iservice\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebApi\\WebAPI\\WebAPI\\Controllers\\CommentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\_searchmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_searchmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\_notificationgeneric.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_notificationgeneric.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\home\\_listpreferentialhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\home\\_listpreferentialhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\collection\\_listcollectioninpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\collection\\_listcollectioninpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\search\\_liststoresearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\search\\_liststoresearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\iservice\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\iservice\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\addressdtos\\warddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\addressdtos\\warddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\addressdtos\\districtdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\addressdtos\\districtdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\bll\\model\\addressdtos\\citydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778FE29F-3E9B-4C81-8796-B3CF68EB2890}|BLL\\BLL.csproj|solutionrelative:bll\\model\\addressdtos\\citydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\webmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\webmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\models\\payments\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\models\\payments\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\models\\payments\\vnpaysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\models\\payments\\vnpaysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\forgotpassword.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\forgotpassword.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\changeforgot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\changeforgot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\preferentialpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\preferentialpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\searchpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\searchpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\listcart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\listcart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\deatailcollection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\deatailcollection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|c:\\users\\vy\\onedrive\\desktop\\webshoppefood\\webclient\\webmvc\\webmvc\\wwwroot\\js\\collectionpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5838154D-2DAB-4B8E-8293-51DA80F8CA1E}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\wwwroot\\js\\collectionpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 228,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:25:11.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\StoreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:12:31.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:12:28.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA0wCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:41:50.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\History.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Cart\\History.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\History.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Cart\\History.cshtml",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAAANIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T18:26:25.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailCartByID.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\DetailCartByID.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Cart\\DetailCartByID.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\DetailCartByID.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Cart\\DetailCartByID.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAswGgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T18:46:14.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\UpdateCustomer.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Customer\\UpdateCustomer.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\UpdateCustomer.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Customer\\UpdateCustomer.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T12:34:34.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetailStore.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\DetailStore.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Store\\DetailStore.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\DetailStore.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Store\\DetailStore.cshtml",
+              "ViewState": "AQIAALgBAAAAAAAAAAAAAPUBAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:26:12.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_listMenuStore.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\_listMenuStore.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Store\\_listMenuStore.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\_listMenuStore.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Store\\_listMenuStore.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:26:08.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_listMenuFood.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\_listMenuFood.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Store\\_listMenuFood.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\_listMenuFood.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Store\\_listMenuFood.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:26:05.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_listFoodOfMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\_listFoodOfMenu.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Store\\_listFoodOfMenu.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\_listFoodOfMenu.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Store\\_listFoodOfMenu.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAFQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:25:49.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_listCommentsByStore1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\_listCommentsByStore1.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Store\\_listCommentsByStore1.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Store\\_listCommentsByStore1.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Store\\_listCommentsByStore1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T16:54:39.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderPending.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\OrderPending.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Cart\\OrderPending.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\OrderPending.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Cart\\OrderPending.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwCwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T17:53:22.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderCompleted.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\OrderCompleted.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Cart\\OrderCompleted.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\OrderCompleted.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Cart\\OrderCompleted.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T17:54:00.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderAccepted.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\OrderAccepted.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Cart\\OrderAccepted.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\OrderAccepted.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Cart\\OrderAccepted.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswC0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T17:53:44.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NoOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\NoOrders.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Cart\\NoOrders.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\NoOrders.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Cart\\NoOrders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T19:13:46.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Cart\\CartDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Cart\\CartDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Cart\\CartDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\Cart\\CartDtos.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:24:38.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Cart\\CartModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Cart\\CartModel.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Cart\\CartModel.cs",
+              "RelativeToolTip": "BLL\\Model\\Cart\\CartModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:19:41.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_listCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\_listCart.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Cart\\_listCart.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\_listCart.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Cart\\_listCart.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswDkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T13:25:24.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAPIAAAAAAAAAAAD4vwYBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:10:53.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Cart\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Cart\\Cart.cshtml",
+              "ViewState": "AQIAADEBAAAAAAAAAAAswEABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:28:38.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\StoreService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\StoreService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\StoreService.cs",
+              "RelativeToolTip": "BLL\\Service\\StoreService.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAIAwwIAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:29:22.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReqOrderMess.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Cart\\ReqOrderMess.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Cart\\ReqOrderMess.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Cart\\ReqOrderMess.cs",
+              "RelativeToolTip": "BLL\\Model\\Cart\\ReqOrderMess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:59:11.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReqOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Cart\\ReqOrder.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Cart\\ReqOrder.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Cart\\ReqOrder.cs",
+              "RelativeToolTip": "BLL\\Model\\Cart\\ReqOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:19:46.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ProductDtos\\CategoryDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ProductDtos\\CategoryDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ProductDtos\\CategoryDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\ProductDtos\\CategoryDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:09:21.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ApiResponse.cs",
+              "RelativeToolTip": "BLL\\Model\\ApiResponse.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:04:13.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CartResponseData.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\CartResponseData.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\CartResponseData.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\CartResponseData.cs",
+              "RelativeToolTip": "BLL\\Model\\CartResponseData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:24:54.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\CartService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\CartService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\CartService.cs",
+              "RelativeToolTip": "BLL\\Service\\CartService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAjwCQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:06:05.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CollectionDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ProductDtos\\CollectionDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ProductDtos\\CollectionDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ProductDtos\\CollectionDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\ProductDtos\\CollectionDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:09:22.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\CommentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\CommentService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\CommentService.cs",
+              "RelativeToolTip": "BLL\\Service\\CommentService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:35:53.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CustomerDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\CustomerDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Customer\\CustomerDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\CustomerDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\Customer\\CustomerDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:46:12.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Program.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Program.cs",
+              "RelativeToolTip": "WebMVC\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswEoAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:07:50.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CommentDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Comment\\CommentDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Comment\\CommentDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Comment\\CommentDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\Comment\\CommentDtos.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:25:47.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CollectionController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\CollectionController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\CollectionController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\CollectionController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\CollectionController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:12:21.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DetailCartAndStore.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\DetailCartAndStore.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\DetailCartAndStore.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\DetailCartAndStore.cs",
+              "RelativeToolTip": "BLL\\Model\\DetailCartAndStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:30:29.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CustomerAndCart.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\CustomerAndCart.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\CustomerAndCart.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\CustomerAndCart.cs",
+              "RelativeToolTip": "BLL\\Model\\CustomerAndCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:57:16.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StoreDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelStoreDtos\\StoreDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelStoreDtos\\StoreDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelStoreDtos\\StoreDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelStoreDtos\\StoreDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:48:43.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ListStoreOfCollecDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelStoreDtos\\ListStoreOfCollecDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelStoreDtos\\ListStoreOfCollecDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelStoreDtos\\ListStoreOfCollecDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelStoreDtos\\ListStoreOfCollecDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:49:15.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ListMenuDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelStoreDtos\\ListMenuDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelStoreDtos\\ListMenuDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelStoreDtos\\ListMenuDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelStoreDtos\\ListMenuDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:49:05.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FoodDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelStoreDtos\\FoodDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelStoreDtos\\FoodDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelStoreDtos\\FoodDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelStoreDtos\\FoodDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:48:40.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdateCommentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\UpdateCommentRequest.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\UpdateCommentRequest.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\UpdateCommentRequest.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\UpdateCommentRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:34:39.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SetStatusRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\SetStatusRequest.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\SetStatusRequest.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\SetStatusRequest.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\SetStatusRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:38:35.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReqStorePreferential.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqStorePreferential.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\ReqStorePreferential.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqStorePreferential.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\ReqStorePreferential.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:58:37.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReqStoreMenuBot.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqStoreMenuBot.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\ReqStoreMenuBot.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqStoreMenuBot.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\ReqStoreMenuBot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:58:38.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ReqSearch.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqSearch.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\ReqSearch.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqSearch.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\ReqSearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:58:39.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ReqListStoreOfCollec.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqListStoreOfCollec.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\ReqListStoreOfCollec.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqListStoreOfCollec.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\ReqListStoreOfCollec.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T14:36:57.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ReqForgotPassword.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqForgotPassword.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\ReqForgotPassword.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqForgotPassword.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\ReqForgotPassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T14:36:52.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ReqCollectionHome.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqCollectionHome.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\ReqCollectionHome.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ReqCollectionHome.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\ReqCollectionHome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:09:28.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AddCommentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\AddCommentRequest.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\AddCommentRequest.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\AddCommentRequest.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\AddCommentRequest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBoAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:33:15.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\CustomerService.cs",
+              "RelativeToolTip": "BLL\\Service\\CustomerService.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAswIoAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T05:00:35.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\ProductService.cs",
+              "RelativeToolTip": "BLL\\Service\\ProductService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAMwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T05:23:04.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:12:11.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Helper\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Helper\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Helper\\SessionExtensions.cs",
+              "RelativeToolTip": "WebMVC\\Helper\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:25:49.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\AddressService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\AddressService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Service\\AddressService.cs",
+              "RelativeToolTip": "BLL\\Service\\AddressService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:32:35.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAMwB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:09:41.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\Header.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\Header.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\Header.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\Header.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAMwGYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:10:07.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "_listCategoryHeader.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_listCategoryHeader.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_listCategoryHeader.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_listCategoryHeader.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_listCategoryHeader.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:28:01.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\ICartService.cs",
+              "RelativeDocumentMoniker": "BLL\\IService\\ICartService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\ICartService.cs",
+              "RelativeToolTip": "BLL\\IService\\ICartService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAMwBgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:01:05.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "_listCityHeader.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_listCityHeader.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_listCityHeader.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_listCityHeader.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_listCityHeader.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:09:51.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "_listCollectionHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listCollectionHome.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Home\\_listCollectionHome.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listCollectionHome.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Home\\_listCollectionHome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T18:00:29.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowGcAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:10:54.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CustomerDtos1.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\CustomerDtos1.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Customer\\CustomerDtos1.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\CustomerDtos1.cs",
+              "RelativeToolTip": "BLL\\Model\\Customer\\CustomerDtos1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:50:28.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\Footer.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\Footer.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\Footer.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:10:05.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ApiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ApiRequest.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ModelRequest\\ApiRequest.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ModelRequest\\ApiRequest.cs",
+              "RelativeToolTip": "BLL\\Model\\ModelRequest\\ApiRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:42:01.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UpdateCustomerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\UpdateCustomerRequest.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Customer\\UpdateCustomerRequest.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\UpdateCustomerRequest.cs",
+              "RelativeToolTip": "BLL\\Model\\Customer\\UpdateCustomerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:13:34.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ModelRegister.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\ModelRegister.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Customer\\ModelRegister.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\ModelRegister.cs",
+              "RelativeToolTip": "BLL\\Model\\Customer\\ModelRegister.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:53:00.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ModelLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\ModelLogin.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Customer\\ModelLogin.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Customer\\ModelLogin.cs",
+              "RelativeToolTip": "BLL\\Model\\Customer\\ModelLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:46:15.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CommentsPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Comment\\CommentsPageViewModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\Comment\\CommentsPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\Comment\\CommentsPageViewModel.cs",
+              "RelativeToolTip": "BLL\\Model\\Comment\\CommentsPageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:09:56.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\IAddressService.cs",
+              "RelativeDocumentMoniker": "BLL\\IService\\IAddressService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\IAddressService.cs",
+              "RelativeToolTip": "BLL\\IService\\IAddressService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:32:27.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "_listCommentsByFood1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\_listCommentsByFood1.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Comment\\_listCommentsByFood1.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\_listCommentsByFood1.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Comment\\_listCommentsByFood1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:57:02.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "_listStoreInCollection.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Collection\\_listStoreInCollection.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Collection\\_listStoreInCollection.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Collection\\_listStoreInCollection.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Collection\\_listStoreInCollection.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T13:25:39.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ContentDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ProductDtos\\ContentDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\ProductDtos\\ContentDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\ProductDtos\\ContentDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\ProductDtos\\ContentDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:09:24.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Helper\\Utils.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Helper\\Utils.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Helper\\Utils.cs",
+              "RelativeToolTip": "WebMVC\\Helper\\Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:05:54.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:10:32.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ResetPasswordEmailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\ResetPasswordEmailViewModel.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Models\\ResetPasswordEmailViewModel.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\ResetPasswordEmailViewModel.cs",
+              "RelativeToolTip": "WebMVC\\Models\\ResetPasswordEmailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T14:32:19.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ListNull.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\ListNull.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Models\\ListNull.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\ListNull.cs",
+              "RelativeToolTip": "WebMVC\\Models\\ListNull.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:10:35.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\SearchController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwvyUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:12:25.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CommentsPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\CommentsPage1.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Comment\\CommentsPage1.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\CommentsPage1.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Comment\\CommentsPage1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:58:37.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T02:47:44.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Customer\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\Register.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Customer\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:27:56.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "BLL\\IService\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\ICustomerService.cs",
+              "RelativeToolTip": "BLL\\IService\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:32:30.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "_dataEmpty.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_dataEmpty.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_dataEmpty.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_dataEmpty.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_dataEmpty.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:09:50.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "_listCommentsByFood.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\_listCommentsByFood.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Comment\\_listCommentsByFood.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\_listCommentsByFood.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Comment\\_listCommentsByFood.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T11:49:51.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "_listCommentsByStore1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\_listCommentsByStore1.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Comment\\_listCommentsByStore1.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\_listCommentsByStore1.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Comment\\_listCommentsByStore1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:57:49.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "_listCommentsByStore.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\_listCommentsByStore.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Comment\\_listCommentsByStore.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Comment\\_listCommentsByStore.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Comment\\_listCommentsByStore.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T11:50:13.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ListCollectionPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Collection\\ListCollectionPage.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Collection\\ListCollectionPage.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Collection\\ListCollectionPage.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Collection\\ListCollectionPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T11:52:00.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "PageNotFound.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\PageNotFound.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\PageNotFound.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\PageNotFound.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\PageNotFound.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:10:40.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:10:04.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "_listContentSearch.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Search\\_listContentSearch.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Search\\_listContentSearch.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Search\\_listContentSearch.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Search\\_listContentSearch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:59:09.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "_listStorePreferentialPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Product\\_listStorePreferentialPage.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Product\\_listStorePreferentialPage.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Product\\_listStorePreferentialPage.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Product\\_listStorePreferentialPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T20:44:21.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "_listDistrictPre.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Product\\_listDistrictPre.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Product\\_listDistrictPre.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Product\\_listDistrictPre.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Product\\_listDistrictPre.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T20:44:20.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "_listStoreMenuBot.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listStoreMenuBot.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Home\\_listStoreMenuBot.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listStoreMenuBot.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Home\\_listStoreMenuBot.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T02:47:40.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "PreferentialPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Product\\PreferentialPage.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Product\\PreferentialPage.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Product\\PreferentialPage.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Product\\PreferentialPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T20:44:24.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "_listOptionHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listOptionHome.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Home\\_listOptionHome.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listOptionHome.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Home\\_listOptionHome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T02:47:34.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "_listDistrictMenuBot.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listDistrictMenuBot.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Home\\_listDistrictMenuBot.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listDistrictMenuBot.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Home\\_listDistrictMenuBot.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T12:04:05.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "DetailCollection.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Collection\\DetailCollection.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Collection\\DetailCollection.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Collection\\DetailCollection.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Collection\\DetailCollection.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:54:20.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ChangeForgotPass.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\ChangeForgotPass.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Customer\\ChangeForgotPass.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\ChangeForgotPass.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Customer\\ChangeForgotPass.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T14:02:05.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Customer\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\ForgotPassword.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Customer\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T13:51:14.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Customer\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Customer\\Login.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Customer\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:28:24.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "SearchPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Search\\SearchPage.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Search\\SearchPage.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Search\\SearchPage.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Search\\SearchPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:58:23.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:27:45.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "WebMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\appsettings.json",
+              "RelativeToolTip": "WebMVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-26T16:42:10.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\ICommentService.cs",
+              "RelativeDocumentMoniker": "BLL\\IService\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\ICommentService.cs",
+              "RelativeToolTip": "BLL\\IService\\ICommentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:29:54.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebApi\\WebAPI\\WebAPI\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "..\\..\\WebApi\\WebAPI\\WebAPI\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebApi\\WebAPI\\WebAPI\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "..\\..\\WebApi\\WebAPI\\WebAPI\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T11:12:40.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:27:49.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "_searchModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_searchModal.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_searchModal.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_searchModal.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_searchModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:10:43.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "_notificationGeneric.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_notificationGeneric.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_notificationGeneric.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_notificationGeneric.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_notificationGeneric.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:09:52.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "_listPreferentialHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listPreferentialHome.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Home\\_listPreferentialHome.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Home\\_listPreferentialHome.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Home\\_listPreferentialHome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T02:47:42.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "_listCollectionInPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Collection\\_listCollectionInPage.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Collection\\_listCollectionInPage.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Collection\\_listCollectionInPage.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Collection\\_listCollectionInPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T13:25:36.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "_listStoreSearch.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Search\\_listStoreSearch.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Search\\_listStoreSearch.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Search\\_listStoreSearch.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Search\\_listStoreSearch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:53:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T13:09:54.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebMVC\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\appsettings.Development.json",
+              "RelativeToolTip": "WebMVC\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T01:11:57.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "IStoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\IStoreService.cs",
+              "RelativeDocumentMoniker": "BLL\\IService\\IStoreService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\IStoreService.cs",
+              "RelativeToolTip": "BLL\\IService\\IStoreService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAArwBMAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:32:33.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\IProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\IService\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\IService\\IProductService.cs",
+              "RelativeToolTip": "BLL\\IService\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:32:32.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "WebMVC\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-06-18T01:11:42.481Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebMVC\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebMVC\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-01T05:37:29.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "WardDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\AddressDtos\\WardDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\AddressDtos\\WardDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\AddressDtos\\WardDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\AddressDtos\\WardDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:08:41.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "DistrictDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\AddressDtos\\DistrictDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\AddressDtos\\DistrictDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\AddressDtos\\DistrictDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\AddressDtos\\DistrictDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:08:40.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "CityDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\AddressDtos\\CityDtos.cs",
+              "RelativeDocumentMoniker": "BLL\\Model\\AddressDtos\\CityDtos.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\BLL\\Model\\AddressDtos\\CityDtos.cs",
+              "RelativeToolTip": "BLL\\Model\\AddressDtos\\CityDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:08:35.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "WebMVC.csproj",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\WebMVC.csproj",
+              "RelativeDocumentMoniker": "WebMVC\\WebMVC.csproj",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\WebMVC.csproj",
+              "RelativeToolTip": "WebMVC\\WebMVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T16:34:11.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\Payments\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Models\\Payments\\VnPayLibrary.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\Payments\\VnPayLibrary.cs",
+              "RelativeToolTip": "WebMVC\\Models\\Payments\\VnPayLibrary.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:13:11.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "VnPaySettings.cs",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\Payments\\VnPaySettings.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Models\\Payments\\VnPaySettings.cs",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Models\\Payments\\VnPaySettings.cs",
+              "RelativeToolTip": "WebMVC\\Models\\Payments\\VnPaySettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:28:01.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "ChangeForgot.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\ChangeForgot.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\ChangeForgot.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\ChangeForgot.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\ChangeForgot.js",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:04.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "ForgotPassword.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\ForgotPassword.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\ForgotPassword.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\ForgotPassword.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\ForgotPassword.js",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwD0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:49.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "Register.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\Register.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\Register.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\Register.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\Register.js",
+              "ViewState": "AQIAAHUBAAAAAAAAAIBZwJwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:54.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\Login.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\Login.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\Login.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\Login.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA+wBkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:51.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "PreferentialPage.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\PreferentialPage.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\PreferentialPage.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\PreferentialPage.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\PreferentialPage.js",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:53.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-27T13:09:47.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "Store.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\Store.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\Store.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\Store.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\Store.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA+wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:57.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "ListCart.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\ListCart.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\ListCart.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\ListCart.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\ListCart.js",
+              "ViewState": "AQIAAAEAAAAAAAAAAAA8wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:50.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "DeatailCollection.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\DeatailCollection.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\DeatailCollection.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\DeatailCollection.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\DeatailCollection.js",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:47.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "CollectionPage.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\CollectionPage.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\CollectionPage.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\CollectionPage.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\CollectionPage.js",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:15.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "SearchPage.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\SearchPage.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\SearchPage.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\SearchPage.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\SearchPage.js",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:35:55.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebMVC\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Vy\\OneDrive\\Desktop\\WebShoppeFood\\WebClient\\WebMVC\\WebMVC\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebMVC\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T13:28:39.707Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 122,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 7,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 228,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+﻿@model BLL.Model.DetailCartAndStore
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Details</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .status-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .status-pending {
+            background-color: #fef3c7;
+            color: #92400e;
+        }
+
+        .status-completed {
+            background-color: #d1fae5;
+            color: #065f46;
+        }
+
+        .status-order {
+            background-color: lightgray; /* Nền màu xám nhạt */
+            color: blue; /* Chữ màu xanh */
+        }
+
+        .status-cancelled {
+            background-color: #fee2e2;
+            color: #991b1b;
+        }
+        .shipper-accept{
+            background-color:lightgray;
+            color: yellow;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto p-6">
+        <!-- Cart Header -->
+        <div class="bg-white rounded-lg shadow-sm p-6 mb-6">
+            <h1 class="text-3xl font-semibold text-gray-800">Giỏ hàng</h1>
+
+            <div class="mt-4">
+                <p class="text-lg font-medium text-gray-700">Mã đơn hàng: @Model.Cart.Id</p>
+                <p class="text-sm text-gray-600">Tên cửa hàng: @Model.Store.Name</p>
+                <p class="text-sm text-gray-600">Địa chỉ quán: @Model.Store.Address - @Model.Store.AddressLocation</p>
+                <p class="text-sm text-gray-600">Địa chỉ giao hàng: @Model.Cart.Delivery</p>
+                <p class="text-sm text-gray-600">Số điện thoại: @Model.Cart.PhoneNumber</p>
+                <p class="text-sm text-gray-600">Thời gian đặt: @Model.Cart.TimeOrder.ToString("MMMM dd, yyyy HH:mm")</p>
+                <p class="text-sm text-gray-600">
+                    Status:
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="status-badge @(Model.Cart.Status switch
+        {
+            0 => "status-pending",
+            1 => "status-order",
+            2 => "status-cancelled",
+            3 => "status-completed",
+            4 =>"shipper-accept"
+        })">
+                            @(Model.Cart.Status switch
+                            {
+                                0 => "Đặt hàng thành công",
+                                1 => "Đang chuẩn bị",
+                                2 => "Đơn bị hủy",
+                                3 => "Hoàn thành ",
+                                4=> "Đang giao"
+                            })
+                        </span>
+                    </td>
+                </p>
+                @if (@Model.Cart.MomoStatus == null)
+                {
+                    <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-800 rounded-md shadow-sm flex items-center">
+                        <svg class="w-6 h-6 text-yellow-400 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 20a8 8 0 100-16 8 8 0 000 16z" />
+                        </svg>
+                        <p class="text-sm font-medium">Thanh toán: <span class="font-bold">Tiền mặt</span></p>
+                    </div>
+                }
+                else if (@Model.Cart.MomoStatus == "Thành công")
+                {
+                    <div class="p-4 bg-green-50 border-l-4 border-green-400 text-green-800 rounded-md shadow-sm flex items-center">
+                        <svg class="w-6 h-6 text-green-400 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="text-sm font-medium">Thanh toán (MOMO): <span class="font-bold">@Model.Cart.MomoStatus</span></p>
+                    </div>
+                }
+                else if (@Model.Cart.MomoStatus == "Thất bại")
+                {
+                    <div class="p-4 bg-red-50 border-l-4 border-red-400 text-red-800 rounded-md shadow-sm flex items-center">
+                        <svg class="w-6 h-6 text-red-400 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                        <p class="text-sm font-medium">Thanh toán (MOMO): <span class="font-bold">@Model.Cart.MomoStatus</span></p>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Cart Items Table -->
+        <div class="bg-white rounded-lg shadow-sm p-6 mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Chi tiết giỏ hàng</h2>
+
+            <table class="min-w-full mt-4 divide-y divide-gray-200">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tên món ăn</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Số lượng</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Giá</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tổng</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                    @foreach (var item in Model.Cart.DetailCarts)
+                    {
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.FoodName</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.Quantity</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.Price.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.TotalMoney.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <!-- Cart Summary -->
+            <div class="mt-4 flex justify-between items-center">
+                <p class="text-lg font-medium text-gray-800">Tổng hóa đơn:</p>
+                <p class="text-lg font-semibold text-gray-900">@Model.Cart.DetailCarts.Sum(x => x.TotalMoney).ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</p>
+            </div>
+        </div>
+
+        <!-- Back Button -->
+        <div class="flex justify-end">
+            <a href="@Url.Action("Index", "Home")" class="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition-colors">
+                Quay về trang chủ
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="https://cdn.tailwindcss.com"></script>

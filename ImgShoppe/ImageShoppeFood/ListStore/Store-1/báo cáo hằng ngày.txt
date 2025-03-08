@@ -1,0 +1,8 @@
+Nguyen Tuan Dat - January 8th 2024
+- Completed Task : 
+- Current Task: update redis
+- Next Tasks:
+- Issue: (if any) : 
+Link google Excel Estimate : https://docs.google.com/spreadsheets/d/10j8bI1W2G-2nl-s1DbKtuboi0uTDoyD6MAUVaSm_FOU/edit?usp=sharing
+Link github WebAPI : https://github.com/NguyenTuanDat06/WebAPI.git
+Link github WebMVC : https://github.com/NguyenTuanDat06/ShoppeFood.git

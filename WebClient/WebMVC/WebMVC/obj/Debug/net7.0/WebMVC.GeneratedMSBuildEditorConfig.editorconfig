@@ -1,0 +1,227 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebMVC
+build_property.RootNamespace = WebMVC
+build_property.ProjectDir = C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebClient\WebMVC\WebMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebClient\WebMVC\WebMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Cart/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Cart/DetailCartByID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxEZXRhaWxDYXJ0QnlJRC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Cart/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Cart/NoOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxOb09yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Cart/OrderAccepted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxPcmRlckFjY2VwdGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Cart/OrderCompleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxPcmRlckNvbXBsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Cart/OrderPending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxPcmRlclBlbmRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Cart/_listCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxfbGlzdENhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Collection/DetailCollection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxEZXRhaWxDb2xsZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Collection/ListCollectionPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxMaXN0Q29sbGVjdGlvblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Collection/_listCollectionInPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxfbGlzdENvbGxlY3Rpb25JblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Collection/_listStoreInCollection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxfbGlzdFN0b3JlSW5Db2xsZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Comment/CommentsPage1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDb21tZW50c1BhZ2UxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Comment/_listCommentsByFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxfbGlzdENvbW1lbnRzQnlGb29kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Comment/_listCommentsByFood1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxfbGlzdENvbW1lbnRzQnlGb29kMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Comment/_listCommentsByStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxfbGlzdENvbW1lbnRzQnlTdG9yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Comment/_listCommentsByStore1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxfbGlzdENvbW1lbnRzQnlTdG9yZTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Customer/ChangeForgotPass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ2hhbmdlRm9yZ290UGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Customer/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Customer/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Customer/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Customer/UpdateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBkYXRlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Home/_listCollectionHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfbGlzdENvbGxlY3Rpb25Ib21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Home/_listDistrictMenuBot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfbGlzdERpc3RyaWN0TWVudUJvdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Home/_listOptionHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfbGlzdE9wdGlvbkhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Home/_listPreferentialHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfbGlzdFByZWZlcmVudGlhbEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Home/_listStoreMenuBot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfbGlzdFN0b3JlTWVudUJvdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Product/PreferentialPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcmVmZXJlbnRpYWxQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Product/_listDistrictPre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfbGlzdERpc3RyaWN0UHJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Product/_listStorePreferentialPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfbGlzdFN0b3JlUHJlZmVyZW50aWFsUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Search/SearchPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Search/_listContentSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXF9saXN0Q29udGVudFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Search/_listStoreSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXF9saXN0U3RvcmVTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/PageNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhZ2VOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/_dataEmpty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9kYXRhRW1wdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/_listCategoryHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9saXN0Q2F0ZWdvcnlIZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/_listCityHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9saXN0Q2l0eUhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/_notificationGeneric.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9ub3RpZmljYXRpb25HZW5lcmljLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/_searchModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zZWFyY2hNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Store/DetailStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcRGV0YWlsU3RvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Store/_listCommentsByStore1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcX2xpc3RDb21tZW50c0J5U3RvcmUxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Store/_listFoodOfMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcX2xpc3RGb29kT2ZNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Store/_listMenuFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcX2xpc3RNZW51Rm9vZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Store/_listMenuStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcX2xpc3RNZW51U3RvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vy/OneDrive/Desktop/WebShoppeFood/WebClient/WebMVC/WebMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-giswp39xn8

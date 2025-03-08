@@ -1,0 +1,44 @@
+﻿@model List<BLL.Model.CustomerAndCart>
+
+<h2 class="text-3xl font-semibold text-gray-800 mb-6">Danh Sách Đơn Hàng Đã Hoàn Thành</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div class="overflow-x-auto bg-white shadow-md rounded-lg p-6">
+        <table class="min-w-full table-auto">
+            <thead>
+                <tr class="bg-gray-100 border-b">
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-600">Mã đơn hàng</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-600">Tên Khách hàng</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-600">Số điện thoại</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-600">Tên quán ăn</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-600">Trạng thái</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-600">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model)
+                {
+                    <tr class="border-b hover:bg-gray-50">
+                        <td class="px-6 py-4 text-sm text-gray-800">@order.Carts.FirstOrDefault().Id</td>
+                        <td class="px-6 py-4 text-sm text-gray-800">@order.CustomerDtos1.LastName @order.CustomerDtos1.FirstName</td>
+                        <td class="px-6 py-4 text-sm text-gray-800">@order.Carts.FirstOrDefault().PhoneNumber</td>
+                        <td class="px-6 py-4 text-sm text-gray-800">@order.StoreDtos.Name</td>
+                        <td class="px-6 py-4 text-sm text-gray-800">
+                            <span class="inline-flex items-center px-2 py-1 text-xs font-semibold text-green-800 bg-green-100 rounded-full">Đơn hàng đã hoàn thành</span>
+                        </td>
+                        <td class="px-6 py-4 text-sm text-gray-800">
+                            <a href="@Url.Action("DetailCartByID", new { cartId = order.Carts.FirstOrDefault().Id })"
+                               class="inline-block px-4 py-2 text-sm text-white bg-blue-500 hover:bg-blue-700 rounded-md">Xem chi tiết</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p class="text-gray-600">Không có đơn hàng nào.</p>
+}
+<script src="https://cdn.tailwindcss.com"></script>

@@ -1,0 +1,322 @@
+﻿@model IEnumerable<BLL.Model.Cart.CartModel>
+@using BLL.IService
+@inject IHttpContextAccessor httpcontext
+@inject IConfiguration Configuration
+@{
+    var service = httpcontext.HttpContext.RequestServices.GetService<IStoreService>();
+    //var email = httpcontext.HttpContext.Session.GetString("customerEmail");
+    //var reqOrder = ViewData["Order"] as ReqOrder;
+    //var cartId = httpcontext.HttpContext.Session.GetString("CartId");
+}
+@{
+    ViewData["Title"] = "Giỏ Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+
+}
+<form method="post" id="from-dat-hang">
+    <section class="h-100 gradient-custom">
+        <div class="container pt-5">
+            <div class="row d-flex justify-content-center my-4">
+                <div class="col-md-8">
+                    <div class="card mb-4">
+                        <div class="card-header py-3">
+                            <h5 class="mb-0">Giỏ Hàng</h5>
+                        </div>
+                        <div class="card-header" style="height: 40px;">
+                            <div class="d-flex mb-3 justify-content-between">
+                                <div class="col-2 mb-lg-0">
+                                    <p>Hình Ảnh</p>
+                                </div>
+                                <div class="col-5 mb-lg-0">
+                                    <p>Thông Tin</p>
+                                </div>
+                                <div class="col-2 mb-lg-0 text-center">
+                                    <p>Số Lượng</p>
+                                </div>
+                                <div class="col-2 mb-lg-0 text-center">
+                                    <p>Tổng Tiền</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            @foreach (var item in Model)
+                            {
+                                var Food = await service.DetailFood(item.FoodID);
+                                <div class="d-flex mb-3 justify-content-between">
+                                    <div class="col-2 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay hover-zoom ripple rounded me-3" data-mdb-ripple-color="light">
+                                            <img src='@Configuration["https:pathImg"]@item.StoreID/@Food.Image' class="w-100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 mb-2 mb-lg-0">
+                                        <p class="m-0"><strong>@Html.DisplayFor(modelItem => item.FoodName)</strong></p>
+                                        <p class="m-0">@Food.Description</p>
+                                        <p class="m-0">@String.Format("{0:0,0}",item.FoodPrice)<sup>đ</sup></p>
+
+                                    </div>
+                                    <div class="col-2 mb-4 mb-lg-0 text-center">
+                                        <div class="d-block">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form1"><strong>@Html.DisplayFor(modelItem => item.FoodQuantity)</strong></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 mb-4 mb-lg-0 text-center">
+                                        <div class="d-block">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form1"><strong>@String.Format("{0:0,0}",item.TotalMoney)</strong></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header py-3">
+                            <h5 class="mb-0">Thông Tin Cá Nhân</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush list-unstyled">
+                                <li>
+                                    <label class="mt-4 mb-1">Tên Người Nhận</label>
+                                    <input class="w-100" type="text" id="name-order" />
+                                </li>
+                                <li>
+                                    <label class="mt-4 mb-1">Số Điện Thoại</label>
+                                    <input class="w-100" name="phone-customer" id="phone-order" type="text" />
+                                </li>
+                                <li>
+                                    <label class="mt-4 mb-1">Địa Chỉ</label>
+                                    <input class="w-100" name="delivery-customer" id="delivery-order" type="text" />
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-3">
+                                    <b>Tổng Tiền</b>
+                                    <span style="color:red;"><b>@httpcontext.HttpContext.Session.GetString("TotalMoney")<sup>đ</sup></b></span>
+                                </li>
+                            </ul>
+                          @*   <button type="submit" class="btn w-100 text-white" style="height:45px;background-color:#ee4d2d;">Thanh Toán Bằng Tiền Mặt (COD)</button> 
+                            <button type="button" id="btn-momo-payment" class="btn w-100 text-white" style="height:45px;background-color:aquamarine;">Thanh Toán Online (MOMO)</button>    *@
+                          @*   <li class="mt-4 mb-1">
+                                <label><input type="radio" name="payment-method" value="COD" checked /> Thanh toán khi nhận hàng (COD)</label>
+                            </li>
+                            <li class="mt-4 mb-1">
+                                <label><input type="radio" name="payment-method" value="MoMo" /> Thanh toán qua MoMo</label>
+                            </li>
+                            <button type="submit" class="btn w-100 text-white" style="height:45px;background-color:#ee4d2d;">Thanh toán</button> *@
+                            <div class="bg-white rounded-xl shadow-xl p-6 border border-gray-100">
+                                <div class="space-y-4">
+                                    <div class="flex items-center justify-between">
+                                        <h3 class="text-xl font-semibold text-gray-800">Phương Thức Thanh Toán</h3>
+                                        <div class="text-sm text-gray-500">Chọn 1 phương thức</div>
+                                    </div>
+
+                                    <div class="grid gap-4">
+                                        <label class="relative block cursor-pointer">
+                                            <input type="radio"
+                                                   name="payment-method"
+                                                   value="COD"
+                                                   class="absolute opacity-0 peer"
+                                                   checked />
+                                            <div class="
+                    p-4 rounded-lg border
+                    peer-checked:border-blue-500
+                    peer-checked:bg-blue-50
+                    border-gray-200
+                    hover:border-blue-300
+                    transition-all duration-300
+                    flex items-center justify-between
+                ">
+                                                <div class="flex items-center space-x-3">
+                                                    <div class="
+                            w-5 h-5 rounded-full border-2
+                            peer-checked:border-blue-600
+                            peer-checked:bg-blue-600
+                            border-gray-300
+                        "></div>
+                                                    <div>
+                                                        <p class="font-medium text-gray-700">Thanh Toán Tiền Mặt</p>
+                                                        <p class="text-xs text-gray-500">Trả tiền khi nhận hàng</p>
+                                                    </div>
+                                                </div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 peer-checked:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                                                </svg>
+                                            </div>
+                                        </label>
+
+                                        <label class="relative block cursor-pointer">
+                                            <input type="radio"
+                                                   name="payment-method"
+                                                   value="MoMo"
+                                                   class="absolute opacity-0 peer" />
+                                            <div class="
+                    p-4 rounded-lg border
+                    peer-checked:border-purple-500
+                    peer-checked:bg-purple-50
+                    border-gray-200
+                    hover:border-purple-300
+                    transition-all duration-300
+                    flex items-center justify-between
+                ">
+                                                <div class="flex items-center space-x-3">
+                                                    <div class="
+                            w-5 h-5 rounded-full border-2
+                            peer-checked:border-purple-600
+                            peer-checked:bg-purple-600
+                            border-gray-300
+                        "></div>
+                                                    <div>
+                                                        <div class="flex items-center space-x-2">
+                                                            <p class="font-medium text-gray-700">Thanh Toán Online</p>
+                                                            <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png"
+                                                                 alt="MoMo Logo"
+                                                                 class="h-4 w-auto rounded" />
+                                                        </div>
+                                                        <p class="text-xs text-gray-500">Qua ví điện tử MoMo</p>
+                                                    </div>
+                                                </div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 peer-checked:text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                                                </svg>
+                                            </div>
+                                        </label>
+                                    </div>
+
+                                    <button type="submit"
+                                            class="
+                w-full py-3
+                bg-gradient-to-r from-blue-500 to-purple-600
+                hover:from-blue-600 hover:to-purple-700
+                text-white font-bold
+                rounded-lg
+                shadow-lg
+                transition-all duration-300
+                transform hover:scale-[1.02] active:scale-100
+            ">
+                                        Xác Nhận Thanh Toán
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>
+@* <script>
+    $("#from-dat-hang").submit(function (e) {
+        e.preventDefault();
+        var modalupdate = $('#from-dat-hang');
+        var obj = {
+            Delivery: modalupdate.find("#delivery-order").val(),
+            PhoneNumber: modalupdate.find("#phone-order").val()
+        };
+        $.ajax({
+            url: "/Cart/DatHang",
+            type: "POST",
+            data: JSON.stringify(obj),
+            contentType: "application/json",
+            success: function (data) {
+                if (data.statusCode === 0) {
+                    $("#toastAddToCart").find(".toast-body").html(data.statusMessage);
+                    $("#toastAddToCart").attr('style', 'background-color:red')
+                    $("#toastAddToCart").toast("show");
+                } else if (data.statusCode === 1) {
+                    $("#toastAddToCart").find(".toast-body").html(data.statusMessage);
+                    $("#toastAddToCart").attr('style', 'background-color:green')
+                    $("#toastAddToCart").toast("show");
+                    var cartId = data.cartId; // Lưu CartId nhận được từ API
+
+                    // Hiển thị CartId (hoặc sử dụng nó để thực hiện các hành động khác)
+                    console.log("CartId: " + cartId); // In ra CartId, hoặc có thể làm gì đó với CartId
+
+                    setTimeout(function () {
+                        window.location.href = "/";
+                    }, 2000);
+                }
+            }
+        });
+    });
+</script>  *@
+ <script>
+$("#from-dat-hang").submit(function (e) {
+    e.preventDefault();
+    var modalupdate = $('#from-dat-hang');
+    //var paymentMethod = modalupdate.find('input[name="payment-method"]:checked').val();
+
+    var obj = {
+        Delivery: modalupdate.find("#delivery-order").val(),
+        PhoneNumber: modalupdate.find("#phone-order").val(),
+        //PaymentMethod: paymentMethod // Thêm phương thức thanh toán vào đối tượng
+    };
+
+    $.ajax({
+        url: "/Cart/DatHang", // Đường dẫn API xử lý đơn hàng
+        type: "POST",
+        data: JSON.stringify(obj),
+        contentType: "application/json",
+        success: function (data) {
+            console.log(data);
+            if (data.statusCode === 0) {
+                $("#toastAddToCart").find(".toast-body").html(data.statusMessage);
+                $("#toastAddToCart").attr('style', 'background-color:red');
+                $("#toastAddToCart").toast("show");
+            } else if (data.statusCode === 1) {
+                $("#toastAddToCart").find(".toast-body").html(data.statusMessage);
+                $("#toastAddToCart").attr('style', 'background-color:green');
+                $("#toastAddToCart").toast("show");
+                    var cartId = data.cartId // Lưu CartId nhận được từ API
+                    var paymentMethod = $('input[name="payment-method"]:checked').val();
+                if (paymentMethod === 'MoMo') {
+                    // Chuyển hướng đến MoMo để thanh toán
+                    var totalMoney ='@httpcontext.HttpContext.Session.GetString("TotalMoney")';
+              
+                    var paymentRequest = {
+                        amount: totalMoney, // Tính toán số tiền thanh toán
+                        orderId: cartId, // Sử dụng CartId làm orderId
+                        orderInfo: "Chúc quý khách bữa trưa vui vẻ" // Thông tin đơn hàng
+                    };
+
+                    $.ajax({
+                        url: "https://localhost:7152/Payment/create-payment-url",
+                        type: "POST",
+                        data: JSON.stringify(paymentRequest),
+                        contentType: "application/json",
+                        success: function (paymentData) {
+                            if (paymentData && paymentData.payUrl) {
+                                // Chuyển hướng người dùng tới URL thanh toán MoMo
+                                    window.location.href = paymentData.payUrl;
+                            } else {
+                                alert("Không thể tạo URL thanh toán. Vui lòng thử lại!");
+                            }
+                        },
+                        error: function (xhr, status, error) {
+                            console.error("Lỗi tạo URL thanh toán:", error);
+                            alert("Đã xảy ra lỗi khi tạo URL thanh toán MoMo!");
+                        }
+                    });
+                } else {
+                    setTimeout(function () {
+                        window.location.href = "/"; // Trở lại trang chủ nếu thanh toán COD
+                    }, 2000);
+                }
+            }
+        },
+        error: function (xhr, status, error) {
+            console.error("Lỗi xử lý đơn hàng:", error);
+            alert("Đã xảy ra lỗi khi xử lý đơn hàng. Vui lòng thử lại!");
+        }
+    });
+});
+</script> 
+<script src="https://cdn.tailwindcss.com"></script>
+

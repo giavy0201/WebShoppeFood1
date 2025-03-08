@@ -1,0 +1,514 @@
+﻿@*
+ @model BLL.Request.CreateStoreRequest
+
+@{
+    ViewData["Title"] = "Create Store";
+    var cities = ViewBag.Cities as List<BLL.Model.Address.CityDtos>;
+    var districts = ViewBag.Districts as List<BLL.Model.Address.DistrictDtos>;
+    var wards = ViewBag.Wards as List<BLL.Model.Address.WardDtos>;
+}
+
+<h2>Create New Store</h2>
+
+@using (Html.BeginForm("CreateStore", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <!-- Store Name -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder = "Enter store name" })
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Store Name No Diacritic -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.NameNoDiacritic)
+        @Html.TextBoxFor(model => model.NameNoDiacritic, new { @class = "form-control", placeholder = "Enter store name without diacritics" })
+        @Html.ValidationMessageFor(model => model.NameNoDiacritic, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Store Image -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.Image)
+        @Html.TextBoxFor(model => model.Image, new { @class = "form-control", type = "file" })
+        @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Time Open -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.TimeOpen)
+        @Html.TextBoxFor(model => model.TimeOpen, new { @class = "form-control", type = "time" })
+        @Html.ValidationMessageFor(model => model.TimeOpen, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Time Close -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.TimeClose)
+        @Html.TextBoxFor(model => model.TimeClose, new { @class = "form-control", type = "time" })
+        @Html.ValidationMessageFor(model => model.TimeClose, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Preferential -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.Preferential)
+        @Html.TextBoxFor(model => model.Preferential, new { @class = "form-control", placeholder = "Enter preferential details" })
+        @Html.ValidationMessageFor(model => model.Preferential, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Star Evaluate -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.StarEvaluate)
+        @Html.TextBoxFor(model => model.StarEvaluate, new { @class = "form-control", type = "number", step = "0.1", min = "0", max = "5", placeholder = "Enter store rating (0-5)" })
+        @Html.ValidationMessageFor(model => model.StarEvaluate, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Address -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.Address)
+        @Html.TextBoxFor(model => model.Address, new { @class = "form-control", placeholder = "Enter store address" })
+        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Address Location (Ward) -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.AddressLocation)
+        <div class="form-control" id="WardLocation">
+            <!-- The ward location will be displayed here after the ward selection -->
+        </div>
+        @Html.ValidationMessageFor(model => model.AddressLocation, "", new { @class = "text-danger" })
+    </div>
+    <!-- Content ID -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.ContentID)
+        @Html.TextBoxFor(model => model.ContentID, new { @class = "form-control", placeholder = "Enter Content ID" })
+        @Html.ValidationMessageFor(model => model.ContentID, "", new { @class = "text-danger" })
+    </div>
+    <!-- Dropdown City -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.CityID)
+        @if (cities != null && cities.Any())
+        {
+            @Html.DropDownListFor(model => model.CityID,
+                    new SelectList(cities, "Id", "Name"),
+                    "Select City",
+                    new { @class = "form-control", @id = "CityID" })
+        }
+        else
+        {
+            <p>No cities available</p>
+        }
+        @Html.ValidationMessageFor(model => model.CityID, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Dropdown District -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.DistrictID)
+        @Html.DropDownListFor(model => model.DistrictID,
+                new SelectList(Enumerable.Empty<SelectListItem>(), "Id", "Name"),
+                "Select District",
+                new { @class = "form-control", @id = "DistrictID" })
+        @Html.ValidationMessageFor(model => model.DistrictID, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Dropdown Ward -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.WardID)
+        @Html.DropDownListFor(model => model.WardID,
+                new SelectList(Enumerable.Empty<SelectListItem>(), "Id", "Name"),
+                "Select Ward",
+                new { @class = "form-control", @id = "WardID" })
+        @Html.ValidationMessageFor(model => model.WardID, "", new { @class = "text-danger" })
+    </div>
+    <!-- Admin Name -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.AdminName)
+        @Html.TextBoxFor(model => model.AdminName, new { @class = "form-control", placeholder = "Enter admin name" })
+        @Html.ValidationMessageFor(model => model.AdminName, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Admin Time -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.AdminTime)
+        @Html.TextBoxFor(model => model.AdminTime, new { @class = "form-control", type = "datetime-local" })
+        @Html.ValidationMessageFor(model => model.AdminTime, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Status -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.Status)
+        @Html.DropDownListFor(model => model.Status, new SelectList(new List<SelectListItem>
+    {
+    new SelectListItem { Text = "Active", Value = "1" },
+    new SelectListItem { Text = "Inactive", Value = "0" }
+    }, "Value", "Text"), "Select Status", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Submit Button -->
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create Store</button>
+    </div>
+}
+*@
+
+@model BLL.Request.CreateStoreRequest
+
+@{
+    ViewData["Title"] = "Create Store";
+    var cities = ViewBag.Cities as List<BLL.Model.Address.CityDtos>;
+    var districts = ViewBag.Districts as List<BLL.Model.Address.DistrictDtos>;
+    var wards = ViewBag.Wards as List<BLL.Model.Address.WardDtos>;
+}
+
+<div class="min-h-screen bg-gray-50 py-12">
+    <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-xl shadow-sm p-8">
+            <div class="mb-8">
+                <h1 class="text-2xl font-bold text-gray-900">Create New Store</h1>
+               
+            </div>
+
+            @using (Html.BeginForm("CreateStore", "Admin", FormMethod.Post, new { enctype = "multipart/form-data", @class = "space-y-6" }))
+            {
+                @Html.AntiForgeryToken()
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="p-4 rounded-lg bg-red-50 border border-red-200">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <svg class="h-5 w-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <h3 class="text-sm font-medium text-red-800">
+                                    There were errors with your submission
+                                </h3>
+                                <div class="mt-2 text-sm text-red-700">
+                                    @Html.ValidationSummary(true, "", new { @class = "list-disc list-inside" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <!-- Basic Information Section -->
+                <div class="bg-gray-50 p-6 rounded-lg space-y-6">
+                    <h2 class="text-xl font-semibold text-gray-900">Basic Information</h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Store Name -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.Name, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.TextBoxFor(model => model.Name, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" + (ViewData.ModelState["Name"]?.Errors.Count > 0 ? " border-red-500" : ""), placeholder = "Enter store name" })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-sm text-red-500" })
+                        </div>
+
+                        <!-- Store Name No Diacritic -->
+                        <div class ="form-group row">
+                            @Html.LabelFor(model => model.NameNoDiacritic, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.TextBoxFor(model => model.NameNoDiacritic, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" + (ViewData.ModelState["NameNoDiacritic"]?.Errors.Count > 0 ? " border-red-500" : ""), placeholder = "Enter store name without diacritics" })
+                            @Html.ValidationMessageFor(model => model.NameNoDiacritic, "", new { @class = "text-sm text-red-500" })
+                        </div>
+                    </div>
+
+                    <!-- Store Image -->
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.Image, new { @class = "block text-sm font-medium text-gray-700" })
+                        @Html.TextBoxFor(model => model.Image, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", type = "file" })
+                        @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-sm text-red-500" })
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Time Open -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.TimeOpen, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.TextBoxFor(model => model.TimeOpen, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", type = "time" })
+                            @Html.ValidationMessageFor(model => model.TimeOpen, "", new { @class = "text-sm text-red-500" })
+                        </div>
+
+                        <!-- Time Close -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.TimeClose, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.TextBoxFor(model => model.TimeClose, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", type = "time" })
+                            @Html.ValidationMessageFor(model => model.TimeClose, "", new { @class = "text-sm text-red-500" })
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Location Section -->
+                <div class="bg-gray-50 p-6 rounded-lg space-y-6">
+                    <h2 class="text-xl font-semibold text-gray-900">Location Information</h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- City -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.CityID, new { @class = "block text-sm font-medium text-gray-700" })
+                            @if (cities != null && cities.Any())
+                            {
+                                @Html.DropDownListFor(model => model.CityID,
+                                         new SelectList(cities, "Id", "Name"),
+                                         "Select City",
+                                         new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", @id = "CityID" })
+                            }
+                            else
+                            {
+                                <p class="text-red-500">No cities available</p>
+                            }
+                            @Html.ValidationMessageFor(model => model.CityID, "", new { @class = "text-sm text-red-500" })
+                        </div>
+
+                        <!-- District -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.DistrictID, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.DropDownListFor(model => model.DistrictID,
+                                     new SelectList(Enumerable.Empty<SelectListItem>(), "Id", "Name"),
+                                     "Select District",
+                                     new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", @id = "DistrictID" })
+                            @Html.ValidationMessageFor(model => model.DistrictID, "", new { @class = "text-sm text-red-500" })
+                        </div>
+
+                        <!-- Ward -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.WardID, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.DropDownListFor(model => model.WardID,
+                                     new SelectList(Enumerable.Empty<SelectListItem>(), "Id", "Name"),
+                                     "Select Ward",
+                                     new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", @id = "WardID" })
+                            @Html.ValidationMessageFor(model => model.WardID, "", new { @class = "text-sm text-red-500" })
+                        </div>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.Address, new { @class = "block text-sm font-medium text-gray-700" })
+                        @Html.TextBoxFor(model => model.Address, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", placeholder = "Enter store address" })
+                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-sm text-red-500" })
+                    </div>
+
+                    <!-- Address Location Display -->
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.AddressLocation, new { @class = "block text-sm font-medium text-gray-700" })
+                        <div class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-50" id="WardLocation">
+                            <!-- The ward location will be displayed here after the ward selection -->
+                        </div>
+                        @Html.ValidationMessageFor(model => model.AddressLocation, "", new { @class = "text-sm text-red-500" })
+                    </div>
+                </div>
+
+                <!-- Additional Information Section -->
+                <div class="bg-gray-50 p-6 rounded-lg space-y-6">
+                    <h2 class="text-xl font-semibold text-gray-900">Additional Information</h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Preferential -->
+                        <div class ="form-group row">
+                            @Html.LabelFor(model => model.Preferential, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.TextBoxFor(model => model.Preferential, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", placeholder = "Enter preferential details" })
+                            @Html.ValidationMessageFor(model => model.Preferential, "", new { @class = "text-sm text-red-500" })
+                        </div>
+
+                        <!-- Star Evaluate -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.StarEvaluate, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.TextBoxFor(model => model.StarEvaluate, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", type = "number", step = "0.1", min = "0", max = "5", placeholder = "Enter store rating (0-5)" })
+                            @Html.ValidationMessageFor(model => model.StarEvaluate, "", new { @class = "text-sm text-red-500" })
+                        </div>
+                    </div>
+
+                    <!-- Content ID -->
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.ContentID, new { @class = "block text-sm font-medium text-gray-700" })
+                        @Html.TextBoxFor(model => model.ContentID, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", placeholder = "Enter Content ID" })
+                        @Html.ValidationMessageFor(model => model.ContentID, "", new { @class = "text-sm text-red-500" })
+                    </div>
+                </div>
+
+                <!-- Administrative Section -->
+                <div class="bg-gray-50 p-6 rounded-lg space-y-6">
+                    <h2 class="text-xl font-semibold text-gray-900">Administrative Information</h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Admin Name -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.AdminName, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.TextBoxFor(model => model.AdminName, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", placeholder = "Enter admin name" })
+                            @Html.ValidationMessageFor(model => model.AdminName, "", new { @class = "text-sm text-red-500" })
+                        </div>
+
+                        <!-- Admin Time -->
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.AdminTime, new { @class = "block text-sm font-medium text-gray-700" })
+                            @Html.TextBoxFor(model => model.AdminTime, new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500", type = "datetime-local" })
+                            @Html.ValidationMessageFor(model => model.AdminTime, "", new { @class = "text-sm text-red-500" })
+                        </div>
+                    </div>
+
+                    <!-- Status -->
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.Status, new { @class = "block text-sm font-medium text-gray-700" })
+                        @Html.DropDownListFor(model => model.Status,
+                                 new SelectList(new List<SelectListItem>
+                    {
+                    new SelectListItem { Text = "Active", Value = "1" },
+                    new SelectListItem { Text = "Inactive", Value = "0" }
+                    }, "Value", "Text"),
+                                 "Select Status",
+                                 new { @class = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" })
+                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-sm text-red-500" })
+                    </div>
+                </div>
+
+                <!-- Form Actions -->
+                <div class="flex items-center justify-between pt-6">
+
+                    <button type="submit"
+                            class="btn btn-primary">
+                        Create Store
+                    </button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    /* Custom styles for form sections */
+    .form-section {
+        transition: all 0.3s ease;
+    }
+
+        .form-section:hover {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+    /* Custom styles for validation states */
+    .input-validation-error {
+        border-color: #EF4444 !important;
+    }
+
+    .field-validation-error {
+        color: #EF4444;
+        font-size: 0.875rem;
+    }
+
+    /* Smooth transitions for interactive elements */
+    button, input, select, textarea {
+        transition: all 0.2s ease;
+    }
+</style>
+
+
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Khi chọn City, lấy danh sách District tương ứng
+            $("#CityID").change(function () {
+                var cityId = $(this).val();
+                console.log("Selected CityID:", cityId);
+                if (cityId) {
+                    $.get(`https://localhost:7152/Address/City/${cityId}/District`, function (response) {
+                        if (response.isSuccess) {
+                            var districts = response.data; // Accessing the 'data' property of the response
+
+                            // Clear the previous options in the District dropdown
+                            $("#DistrictID").empty();
+
+                            // Add a default option
+                            $("#DistrictID").append($('<option>', {
+                                value: '',
+                                text: 'Select District'
+                            }));
+
+                            // Loop through the districts array and add each as an option
+                            districts.forEach(function (district) {
+                                $("#DistrictID").append($('<option>', {
+                                    value: district.id,
+                                    text: district.name
+                                }));
+                            });
+                        } else {
+                            console.log("Failed to fetch districts:", response.message);
+                        }
+                    }).fail(function () {
+                        console.log("Error fetching districts. Please check the API endpoint.");
+                    });
+                } else {
+                    // Clear the District dropdown if no City is selected
+                    $("#DistrictID").empty();
+                    $("#DistrictID").append($('<option>', {
+                        value: '',
+                        text: 'Select District'
+                    }));
+                }
+            });
+
+            // Khi chọn District, lấy danh sách Ward tương ứng
+            $("#DistrictID").change(function () {
+                var districtId = $(this).val();
+                if (districtId) {
+                    $.get(`https://localhost:7152/Address/District/${districtId}/Wards`, function (response) {
+                        if (response.isSuccess) {
+                            var wards = response.data; // Accessing the 'data' property of the response
+
+                            // Get the Ward dropdown element
+                            var wardSelect = $("#WardID");
+
+                            // Clear the previous options
+                            wardSelect.empty();
+
+                            // Add a default option
+                            wardSelect.append('<option value="">-- Select Ward --</option>');
+
+                            // Loop through the wards array and add each as an option
+                            $.each(wards, function (i, ward) {
+                                wardSelect.append('<option value="' + ward.id + '">' + ward.name + '</option>');
+                            });
+                        } else {
+                            console.log("Failed to fetch wards:", response.message);
+                        }
+                    }).fail(function () {
+                        console.log("Error fetching wards. Please check the API endpoint.");
+                    });
+                } else {
+                    // Clear the Ward dropdown if no District is selected
+                    $("#WardID").empty();
+                    $("#WardID").append('<option value="">-- Select Ward --</option>');
+                }
+            });
+
+            // Khi chọn Ward, cập nhật địa chỉ location
+            $("#WardID").change(function () {
+                var wardId = $(this).val();
+                if (wardId) {
+                    // Lấy tên ward đã chọn
+                    var selectedWard = $("#WardID option:selected").text();
+
+                    // Cập nhật tên ward vào trường AddressLocation
+                    $("#WardLocation").text(selectedWard);
+                } else {
+                    // Clear AddressLocation nếu không có ward nào được chọn
+                    $("#WardLocation").text('');
+                }
+            });
+
+            // Xử lý khi người dùng nhập Content ID
+            $("#ContentIDInput").on("input", function () {
+                var inputValue = $(this).val(); // Lấy giá trị số mà người dùng nhập
+
+                // Kiểm tra nếu giá trị nhập là số và không rỗng
+                if (inputValue) {
+                    // Có thể thêm mã để xử lý ID nhập vào (ví dụ, gửi API hoặc thao tác khác)
+                    console.log("User entered Content ID: " + inputValue);
+                }
+            });
+        });
+    </script>
+}

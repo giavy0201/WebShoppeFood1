@@ -1,0 +1,15 @@
+﻿@model IEnumerable<string>
+@{
+    ViewData["Title"] = "Store Roles";
+}
+
+<h2>Store Roles</h2>
+
+<ul>
+    @foreach (var role in Model)
+    {
+        <li>@role</li>
+    }
+</ul>
+
+<a href="@Url.Action("ListUsers", "Admin")">Back to User List</a>

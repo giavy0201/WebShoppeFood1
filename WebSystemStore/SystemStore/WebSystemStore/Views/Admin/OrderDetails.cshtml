@@ -1,0 +1,143 @@
+﻿@model BLL.Model.Cart.CartDtos
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Details</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .status-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .status-pending {
+            background-color: #fef3c7;
+            color: #92400e;
+        }
+
+        .status-completed {
+            background-color: #d1fae5;
+            color: #065f46;
+        }
+
+        .status-order {
+            background-color: lightgray; /* Nền màu xám nhạt */
+            color: blue; /* Chữ màu xanh */
+        }
+
+        .status-cancelled {
+            background-color: #fee2e2;
+            color: #991b1b;
+        }
+
+        .shipper-completed {
+            background-color: lightgray; /* Nền màu xám nhạt */
+            color: yellow; /* Chữ màu xanh */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto p-6">
+        <!-- Cart Header -->
+        <div class="bg-white rounded-lg shadow-sm p-6 mb-6">
+            <h1 class="text-3xl font-semibold text-gray-800">Cart Details</h1>
+
+            <div class="mt-4">
+                <p class="text-lg font-medium text-gray-700">Cart ID: @Model.Id</p>
+                <p class="text-sm text-gray-600">Store ID: @Model.StoreId</p>
+                <p class="text-sm text-gray-600">Customer ID: @Model.CustomerId</p>
+                <p class="text-sm text-gray-600">Delivery: @Model.Delivery</p>
+                <p class="text-sm text-gray-600">Phone Number: @Model.PhoneNumber</p>
+                <p class="text-sm text-gray-600">Order Date: @Model.TimeOrder.ToString("MMMM dd, yyyy HH:mm")</p>
+                <p class="text-sm text-gray-600">
+                    Status: 
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <span class="status-badge @(Model.Status switch
+        {
+            0 => "status-pending",
+            1 => "status-order",
+            2 => "status-cancelled",
+            3 => "status-completed",
+               4 =>"shipper-completed"
+        })">
+                        @(Model.Status switch
+                        {
+                                0 => "Placed order successfully",
+                                1 => "Pending",
+                                2 => "Cancel",
+                                3 => "Done",
+                                4 => "Order is being delivered"
+                        })
+                    </span>
+                </td>
+                </p>
+                @if (Model.MomoStatus == null)
+                {
+                    <div class="p-3 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 rounded-md">
+                        <p class="text-sm font-medium">Pay: <span class="font-bold">COD</span></p>
+                    </div>
+                }
+                else if (Model.MomoStatus == "Thành công")
+                {
+                    <div class="p-3 bg-green-100 border-l-4 border-green-500 text-green-700 rounded-md">
+                        <p class="text-sm font-medium">PAY (MOMO): <span class="font-bold">Success</span></p>
+                    </div>
+                }
+                else if (Model.MomoStatus == "Thất bại")
+                {
+                    <div class="p-3 bg-red-100 border-l-4 border-red-500 text-red-700 rounded-md">
+                        <p class="text-sm font-medium">PAY (MOMO): <span class="font-bold">Fail</span></p>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Cart Items Table -->
+        <div class="bg-white rounded-lg shadow-sm p-6 mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Items in this Cart</h2>
+
+            <table class="min-w-full mt-4 divide-y divide-gray-200">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Food Name</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Quantity</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Price</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Total</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                    @foreach (var item in Model.DetailCarts)
+                    {
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.FoodName</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.Quantity</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.Price.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">@item.TotalMoney.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <!-- Cart Summary -->
+            <div class="mt-4 flex justify-between items-center">
+                <p class="text-lg font-medium text-gray-800">Total Amount:</p>
+                <p class="text-lg font-semibold text-gray-900">@Model.DetailCarts.Sum(x => x.TotalMoney).ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</p>
+            </div>
+        </div>
+
+        <!-- Back Button -->
+        <div class="flex justify-end">
+            <a href="@Url.Action("ListOrders", "Admin")" class="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition-colors">
+                Back to Cart List
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

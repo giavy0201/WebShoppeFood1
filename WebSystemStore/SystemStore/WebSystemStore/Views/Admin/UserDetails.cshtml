@@ -1,0 +1,37 @@
+﻿@model BLL.Model.Customer.CustomerDtos
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<h2>User Details</h2>
+
+<div>
+    <h3>@Model.FirstName @Model.LastName</h3>
+    <p>Birthday: @Model.Birthday?.ToString("MM/dd/yyyy")</p>
+    <p>Gender: @(Model.Gender.HasValue ? (Model.Gender == 1 ? "Male" : "Female") : "Not Specified")</p>
+    <p>Location: @Model.Location</p>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.Image))
+{
+    <div>
+        <img src="@Model.Image" alt="User Image" style="width:150px;height:150px;" />
+    </div>
+}
+
+<div>
+    <h4>Assign/Remove Role</h4>
+    <form method="post" asp-action="AssignRoleToUser" asp-controller="Admin">
+        <div class="form-group">
+            <label for="roleName">Select Role</label>
+            <select id="roleName" name="roleName" class="form-control">
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Assign Role</button>
+        </div>
+    </form>
+</div>
