@@ -1,7 +1,7 @@
 ﻿using BLL.IService;
 using BLL.Models.DTOs.ProductDtos;
+using BLL.Models;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Models;
 
 namespace WebAPI.Controllers
 {
@@ -15,6 +15,7 @@ namespace WebAPI.Controllers
         {
             _productService = productService;
         }
+
         [HttpGet("Categories")]
         public async Task<IActionResult> ListCategory()
         {

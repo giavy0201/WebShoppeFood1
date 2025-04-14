@@ -4,7 +4,7 @@ using BLL.Models.DTOs.ListMenu;
 using BLL.Models.Request.ListMenu;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Models;
-
+using BLL.Models;
 namespace WebAPI.Controllers
 {
     [Route("/[controller]")]

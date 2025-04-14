@@ -2,7 +2,7 @@
 using BLL.Models.DTOs.AddressDtos;
 using DAL.Non_Repository.AddressRepo;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Models;
+using BLL.Models;
 
 namespace WebAPI.Controllers
 {
@@ -116,3 +116,4 @@ namespace WebAPI.Controllers
         }
     }
 }
+    

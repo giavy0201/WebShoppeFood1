@@ -10,6 +10,7 @@ using DAL.Entities;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Models;
 using static BLL.Models.Validate.ValidateGeneric;
+using BLL.Models;
 namespace WebAPI.Controllers
 {
     [Route("/[controller]")]
