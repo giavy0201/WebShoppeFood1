@@ -6,6 +6,7 @@ using DAL.ModelsRequest;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using WebAPI.Models;
+using BLL.Models;
 
 namespace WebAPI.Controllers
 {

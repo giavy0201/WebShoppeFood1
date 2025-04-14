@@ -1,0 +1,6 @@
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebClient\WebMVC\WebMVC.Tests\obj\Debug\net8.0\WebMVC.Tests.csproj.AssemblyReference.cache
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebClient\WebMVC\WebMVC.Tests\obj\Debug\net8.0\WebMVC.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebClient\WebMVC\WebMVC.Tests\obj\Debug\net8.0\WebMVC.Tests.AssemblyInfoInputs.cache
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebClient\WebMVC\WebMVC.Tests\obj\Debug\net8.0\WebMVC.Tests.AssemblyInfo.cs
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebClient\WebMVC\WebMVC.Tests\obj\Debug\net8.0\WebMVC.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebClient\WebMVC\WebMVC.Tests\obj\Debug\net8.0\WebMVC.Tests.sourcelink.json

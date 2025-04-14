@@ -3,6 +3,7 @@ using BLL.Models.DTOs.CollectionDtos;
 using BLL.Models.Request;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Models;
+using BLL.Models;
 
 namespace WebAPI.Controllers
 {

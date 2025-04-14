@@ -11,17 +11,10 @@ C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\CoreApiResponse.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Diacritics.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\FluentNHibernate.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Humanizer.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Iesi.Collections.dll
-C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\System.Web.Mvc.dll
-C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\System.Web.Razor.dll
-C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\System.Web.Helpers.dll
-C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
-C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
-C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\System.Web.WebPages.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -56,7 +49,6 @@ C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
@@ -118,3 +110,10 @@ C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\obj\Debug\net7.0
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\obj\Debug\net7.0\WebAPI.pdb
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
 C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\obj\Debug\net7.0\ref\WebAPI.dll
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\WebClient.Tests\obj\project.assets.json
+C:\Users\Vy\OneDrive\Desktop\WebShoppeFood\WebApi\WebAPI\WebAPI\bin\Debug\net7.0\WebClient.Tests\obj\WebClient.Tests.csproj.nuget.dgspec.json

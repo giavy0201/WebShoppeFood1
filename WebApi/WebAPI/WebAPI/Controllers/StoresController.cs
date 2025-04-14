@@ -5,6 +5,7 @@ using BLL.Models.Request;
 using BLL.Models.Request.Store;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Models;
+using BLL.Models;
 using static BLL.Models.Validate.ValidateGeneric;
 
 namespace WebAPI.Controllers

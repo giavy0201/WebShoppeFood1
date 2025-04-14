@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using NHibernate.Util;
 using System.Linq;
+using BLL.Models;
 using WebAPI.Models;
 
 namespace WebAPI.Controllers
